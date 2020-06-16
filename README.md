@@ -4,6 +4,7 @@ These contracts are created and owned by The Hydro Protocol Foundation (not me).
 ## Before you deploy:
 - These contracts are very expensive the deploy, so consider testing on a test net first.
 - The HybridExchange contract uses alot of gas, try a gas limit of `5000000` or more.
+- **Should use solidity compilier version `0.4.24`;** *commit.e67f0147*
 
 ## How to deploy:
 1. First Deploy `Proxy.sol` 
