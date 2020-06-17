@@ -9,4 +9,4 @@ These contracts are created and owned by The Hydro Protocol Foundation (not me).
 ## How to deploy:
 1. First Deploy `Proxy.sol` 
 2. Deploy `HybridExchange.sol`, passing the `Proxy` contract address and the address of the discount token (`0x9af839687f6c94542ac5ece2e317daae355493a1`) to the constructor.
-3. Call addAddress on the `Proxy` contract with the address of your relayer account (Any ethereum account which you have the private key for).
+3. Call addAddress on the `Proxy` contract with the address of your relayer account (can be any ethereum account which you have the private key for).
